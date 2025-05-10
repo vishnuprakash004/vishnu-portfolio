@@ -12,7 +12,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                 </a>
             )}
             {title === 'React Portfolio' && (
-                <a href="https://github.com/vishnuprakash004/vishnu-portfolio">
+                <a href="#">
                     <img className="w-full rounded-t-lg h-auto object-cover" src={portfolio} alt="React Portfolio" />
                 </a>
             )}
@@ -67,14 +67,14 @@ export const project = [
         title: 'To-Do List App',
         description: 'A simple yet functional To-Do List application built with Core Java. Users can add, update, and delete tasks, with data persistence using file handling.',
         image: { todolist },
-        git: 'https://github.com/yourusername/todo-java-app',
+        git: 'https://github.com/vishnuprakash004/to-do-list',
         technologies: ['Java', 'OOPs', 'File Handling']
     },
     {
         title: 'React Portfolio',
         description: 'My personal portfolio website built using React JS and Tailwind CSS. It showcases my skills, projects, and contact information with a modern UI and responsive design.',
         image: { portfolio },
-        git: 'https://github.com/yourusername/react-portfolio',
+        git: 'https://github.com/vishnuprakash004/vishnu-portfolio',
         technologies: ['ReactJS', 'Tailwind CSS', 'Responsive Design']
     }
 ];
