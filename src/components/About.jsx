@@ -32,16 +32,23 @@ const About = () => {
         <div className='flex flex-col justify-around'>
           <div className='sm:px-16 px-2'>
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
-            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Manda Nithin, a 2023 graduate🎓 with a passion for crafting robust backend systems and captivating mobile applications.As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/nithin-manda-728019214/' target='_blank'>Software developer</a> I specialize in both MEAN and MERN stacks🚀.
-              <br />
-              ✍️ Beyond coding, I love sharing my insights and experiences through engaging blogs on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/@goudnithin77" target='_blank'>Medium</a>, where I delve into the intricacies of software development and technology trends.
-              On a different note, I'm also into photography📸. It's not just a hobby; I see it as a way to capture moments🌟📷, tell stories.</p>
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Vishnu Prakash P M, a BE Electronics and Communication Engineering student 🎓 with a passion for crafting efficient software solutions and intuitive user interfaces. As an aspiring Java Developer, I specialize in Full Stack Development and have experience in building mobile applications and web applications. 🚀
 
-            <ButtonLink
-              url='https://drive.google.com/file/d/19Vh0nx5JF9G_sgawb_dUIFlGSHtjp_dw/view?usp=drive_link'
-              text='View Resume →'
-              padding={`p-3`}
-            />
+Let's connect! I'm always open to learning and collaborating.
+<a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/vishnu-prakash-p-m-2a84b6268/' target='_blank'>Connect with me on LinkedIn</a>.
+              <br />
+              ✍️ Beyond coding, I enjoy sharing knowledge and exploring new technologies. I love diving into software development, problem-solving, and emerging tech trends, always looking for ways to improve and innovate.
+
+On a different note, I'm also passionate about photography 📸—not just as a hobby, but as a way to capture moments, tell stories, and see the world from a different perspective. 🌟📷</p>
+
+<ButtonLink
+  href='https:https://drive.google.com/file/d/1H6XALOs0NrpTcgG0VX4X4vyOUi6ONN_K/view?usp=sharing'
+  target="_blank"
+  rel="noopener noreferrer"
+  text='View Resume →'
+  padding={`p-3`}
+/>
+
 
           </div>
           <div className='mt-20 flex justify-center flex-wrap gap-7'>
