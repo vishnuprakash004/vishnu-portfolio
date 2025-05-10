@@ -12,7 +12,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                 </a>
             )}
             {title === 'React Portfolio' && (
-                <a href="#">
+                <a href="https://github.com/vishnuprakash004/vishnu-portfolio">
                     <img className="w-full rounded-t-lg h-auto object-cover" src={portfolio} alt="React Portfolio" />
                 </a>
             )}
