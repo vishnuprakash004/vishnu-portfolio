@@ -14,10 +14,6 @@ A modern, responsive personal portfolio website built with **React**. This site 
 
 ---
 
-## 📸 Screenshots
-
-![Portfolio Screenshot](./screenshot.png) <!-- Optional: Add your own screenshot -->
-
 ---
 
 ## 🛠️ Built With
@@ -28,9 +24,6 @@ A modern, responsive personal portfolio website built with **React**. This site 
 - [Tailwind CSS](https://tailwindcss.com/) *(if you're using it)*
 
 ---
-
-## 📂 Folder Structure
-
 
 ---
 
