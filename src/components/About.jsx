@@ -35,7 +35,7 @@ const About = () => {
             <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Vishnu Prakash P M, a BE Electronics and Communication Engineering student 🎓 with a passion for crafting efficient software solutions and intuitive user interfaces. As an aspiring Java Developer, I specialize in Full Stack Development and have experience in building mobile applications and web applications. 🚀
 
 Let's connect! I'm always open to learning and collaborating.
-<a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/vishnu-prakash-p-m-2a84b6268/' target='_blank'>Connect with me on LinkedIn</a>.
+<a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/vishnu-prakash-p-m-2a84b6268/' target='_blank' rel="noopener noreferrer">Connect with me on LinkedIn</a>.
               <br />
               ✍️ Beyond coding, I enjoy sharing knowledge and exploring new technologies. I love diving into software development, problem-solving, and emerging tech trends, always looking for ways to improve and innovate.
 
