@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c8b018e.css",
+    "main.js": "/static/js/main.37f4c8fb.js",
+    "static/js/453.cb8a5435.chunk.js": "/static/js/453.cb8a5435.chunk.js",
+    "static/media/school-logo.jpeg": "/static/media/school-logo.4059077d2e7af628e2d3.jpeg",
+    "static/media/portfolio.png": "/static/media/portfolio.c937ba05eedb684a82b1.png",
+    "static/media/psna-logo.jpeg": "/static/media/psna-logo.00aa6fe5619debfc7590.jpeg",
+    "static/media/todolist.png": "/static/media/todolist.a5b1b6349979d4940b3e.png",
+    "index.html": "/index.html",
+    "main.4c8b018e.css.map": "/static/css/main.4c8b018e.css.map",
+    "main.37f4c8fb.js.map": "/static/js/main.37f4c8fb.js.map",
+    "453.cb8a5435.chunk.js.map": "/static/js/453.cb8a5435.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c8b018e.css",
+    "static/js/main.37f4c8fb.js"
+  ]
+}
