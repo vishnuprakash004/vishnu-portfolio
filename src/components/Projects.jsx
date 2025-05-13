@@ -7,12 +7,12 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             {title === 'To-Do List App' && (
-                <a>
+                <a href="https://github.com/vishnuprakash004/to-do-list">
                     <img className="w-full rounded-t-lg h-auto object-cover" src={todolist} alt="To-Do List App" />
                 </a>
             )}
             {title === 'React Portfolio' && (
-                <a>
+                <a href="https://github.com/vishnuprakash004/vishnu-portfolio">
                     <img className="w-full rounded-t-lg h-auto object-cover" src={portfolio} alt="React Portfolio" />
                 </a>
             )}
