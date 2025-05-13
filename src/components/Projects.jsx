@@ -6,16 +6,22 @@ import Footer from './Footer';
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title === 'To-Do List App' && (
-                <a href="https://github.com/vishnuprakash004/to-do-list">
+            {title === 'To-Do List App' && 
+                <div>
                     <img className="w-full rounded-t-lg h-auto object-cover" src={todolist} alt="To-Do List App" />
-                </a>
-            )}
-            {title === 'React Portfolio' && (
-                <a href="https://github.com/vishnuprakash004/vishnu-portfolio">
+                </div>
+            }
+            {title === 'React Portfolio' && 
+                <div>
                     <img className="w-full rounded-t-lg h-auto object-cover" src={portfolio} alt="React Portfolio" />
-                </a>
-            )}
+                </div>
+            }
+            <div className="p-4 sm:p-6">
+                <div>
+                    <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">{title}</h5>
+                </div>
+                <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
+            </div>
             <div className='m-2 sm:m-4 lg:m-6 flex justify-between'>
                 <div className='flex flex-wrap gap-2 pl-2'>
                     {technologies.map((tag, index) => (
