@@ -16,14 +16,6 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                     <img className="w-full rounded-t-lg h-auto object-cover" src={portfolio} alt="React Portfolio" />
                 </a>
             )}
-            <div className="p-4 sm:p-6">
-                <a>
-                    <h5 className="text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-pink-500">
-                        {title}
-                    </h5>
-                </a>
-                <p className="font-normal text-sm sm:text-base md:text-lg text-gray-300 dark:text-gray-400">{description}</p>
-            </div>
             <div className='m-2 sm:m-4 lg:m-6 flex justify-between'>
                 <div className='flex flex-wrap gap-2 pl-2'>
                     {technologies.map((tag, index) => (
