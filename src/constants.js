@@ -21,7 +21,7 @@ export const education = [
     {
       degree: "Bachelor of Engineering in Electronics and Communication",
       institution: "PSNA College of Engineering and Technology",
-      duration: "2021 - 2025",
+      duration: "2022 - 2026",
       logo: psnaLogo,  
       url: "https://psnacet.edu.in",  
       highlights: [
