@@ -16,12 +16,6 @@ A modern, responsive personal portfolio website built with **React**. This site 
 
 ---
 
-## 🛠️ Built With
-
-- [React](https://reactjs.org/)
-- [EmailJS](https://www.emailjs.com/)
-- [React Toastify](https://fkhadra.github.io/react-toastify/)
-- [Tailwind CSS](https://tailwindcss.com/) *(if you're using it)*
 
 ---
 
